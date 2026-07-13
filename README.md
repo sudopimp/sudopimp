@@ -1,21 +1,16 @@
 <!-- github-profile-readme -->
-<!-- ASCII neofetch: real photo → characters via jeantimex/neofetch-profile -->
-<!-- GitHub profile picture: robot avatar (upload assets/github-avatar.png in settings) -->
+<!-- Cyan / white / grey ASCII neofetch — photo glyphs, robot is GH avatar -->
 
 <p align="center">
-  <a href="https://github.com/jeantimex/neofetch-profile">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.v4.json&v=5"
-      />
-      <img
-        alt="sudopimp@github — ASCII neofetch"
-        width="900"
-        src="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.v4.json&v=5"
-      />
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-dark.png?v=6" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-light.png?v=6" />
+    <img
+      alt="sudopimp@github — ASCII neofetch"
+      width="900"
+      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-dark.png?v=6"
+    />
+  </picture>
 </p>
 
 <p align="center">
@@ -61,7 +56,7 @@ Singing · writing lyrics · producing · videogames
 
 <p align="center">
   <sub>
-    ASCII card via
+    Cyan/grey ASCII card ·
     <a href="https://github.com/jeantimex/neofetch-profile">neofetch-profile</a>
     · photo → glyphs · robot face is the profile avatar
   </sub>

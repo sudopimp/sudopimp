@@ -1,18 +1,25 @@
-# sudopimp profile — true ASCII
+# sudopimp profile
 
-The profile README embeds the **live** [neofetch-profile](https://github.com/jeantimex/neofetch-profile) API.
-That service converts your image into **ASCII characters** (same as the original demo).
+## Split assets
 
-| File | Role |
-|------|------|
-| `neofetch.json` | Config (fields + robot image URL) |
-| `assets/robot-ascii.png` | Face fed into ASCII converter |
-| `neofetch-ascii-*.png` | Optional static glyph card |
-| `ascii-art.txt` | Plain-text glyph dump |
+| Use | File | Notes |
+|-----|------|--------|
+| **ASCII card** (README) | `assets/me.png` | Your real photo → glyphs via neofetch-profile API |
+| **GitHub profile picture** | `assets/github-avatar.png` | Robot face — upload manually in settings |
+| Config | `neofetch.v4.json` / `neofetch.json` | Points ASCII at `me.png` |
 
-## Identity for commits (required)
+## Set the robot as GitHub avatar (manual)
+
+API cannot set the avatar. Do this once:
+
+1. Open https://github.com/settings/profile  
+2. Click the avatar → upload `assets/github-avatar.png` (robot)  
+3. Save  
+
+## Commit identity (required)
 
 ```bash
 git config --local user.name "sudopimp"
 git config --local user.email "301054894+sudopimp@users.noreply.github.com"
+gh api user --jq .login   # must print sudopimp
 ```
