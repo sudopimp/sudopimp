@@ -1,5 +1,7 @@
 .build/
+.venv/
 preview*.png
 *.pyc
 __pycache__/
 .DS_Store
+*.onnx

@@ -1,4 +1,4 @@
-<!-- github profile card -->
+<!-- github profile card — image only -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./card-dark.png" />
