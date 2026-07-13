@@ -74,3 +74,16 @@ If `gh api -X PATCH /user` returns 404 / needs `user` scope:
 6. **URL:** https://robotrola.com  
 7. **X username:** sudopimp  
 8. **Profile picture:** upload `assets/source/robot-avatar.png`
+
+## GitHub profile sidebar (manual if API lacks `user` scope)
+
+If `gh api -X PATCH /user` returns 404 / needs `user` scope:
+
+1. https://github.com/settings/profile
+2. **Name:** Fernando Lazzarin  
+3. **Bio:** Building humanoid robotics & agent systems · Rust · Python · Claude Code · Robotrola  
+4. **Company:** `>_WAITDEAD`  
+5. **Location:** Mendoza, Argentina  
+6. **URL:** https://robotrola.com  
+7. **X username:** sudopimp  
+8. **Profile picture:** upload `assets/source/robot-avatar.png`
