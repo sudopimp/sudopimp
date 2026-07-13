@@ -1,24 +1,26 @@
 <!-- github-profile-readme -->
-<!--
-  sudopimp · GitHub profile
-  True ASCII neofetch card (characters, not pixels)
--->
+<!-- True ASCII via jeantimex/neofetch-profile (characters, not pixels) -->
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-dark.png" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-light.png" />
-    <img
-      alt="sudopimp@github — ASCII neofetch — Fernando Lazzarin · >_WAITDEAD"
-      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-dark.png"
-      width="900"
-    />
-  </picture>
+  <a href="https://github.com/jeantimex/neofetch-profile">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json&v=2"
+      />
+      <img
+        alt="sudopimp@github — ASCII neofetch"
+        width="900"
+        src="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json&v=2"
+      />
+    </picture>
+  </a>
 </p>
 
-<!--
-  Live API alternative (same style as jeantimex/neofetch-profile):
-  https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json
+<!-- Cache-busted static ASCII (glyphs) fallback if API is down:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-ascii-dark.png" width="900" alt="ASCII fallback" />
+</p>
 -->
 
 <p align="center">
@@ -64,7 +66,8 @@ Singing · writing lyrics · producing · videogames
 
 <p align="center">
   <sub>
-    ASCII neofetch card · regenerate with
-    <code>python scripts/generate_neofetch.py</code>
+    ASCII card via
+    <a href="https://github.com/jeantimex/neofetch-profile">neofetch-profile</a>
+    · config in this repo
   </sub>
 </p>

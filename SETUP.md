@@ -1,37 +1,18 @@
-# sudopimp profile — true ASCII neofetch
+# sudopimp profile — true ASCII
 
-Live: https://github.com/sudopimp  
-Repo: https://github.com/sudopimp/sudopimp
-
-## What “ASCII” means here
-
-Each cell on the left is a **real text character** (`@`, `#`, `M`, `.`, etc.) chosen from image brightness — same idea as [neofetch](https://github.com/dylanaraps/neofetch) / [jeantimex/neofetch-profile](https://github.com/jeantimex/neofetch-profile).
-
-This is **not** a pixel/rect mosaic.
+The profile README embeds the **live** [neofetch-profile](https://github.com/jeantimex/neofetch-profile) API.
+That service converts your image into **ASCII characters** (same as the original demo).
 
 | File | Role |
 |------|------|
-| `neofetch-dark.png` / `neofetch-light.png` | Cards on the profile README |
-| `ascii-art.txt` | Plain mono dump of the glyph grid |
-| `assets/robot-ascii.png` | Source face for conversion + optional Vercel API |
-| `neofetch.json` | Config for `neofetch-profile.vercel.app` (optional) |
-| `scripts/generate_neofetch.py` | Rebuild cards |
+| `neofetch.json` | Config (fields + robot image URL) |
+| `assets/robot-ascii.png` | Face fed into ASCII converter |
+| `neofetch-ascii-*.png` | Optional static glyph card |
+| `ascii-art.txt` | Plain-text glyph dump |
 
-## Regenerate
+## Identity for commits (required)
 
 ```bash
-pip install pillow cairosvg
-python scripts/generate_neofetch.py
-# denser glyphs:
-python scripts/generate_neofetch.py --cols 56 --rows 32
+git config --local user.name "sudopimp"
+git config --local user.email "301054894+sudopimp@users.noreply.github.com"
 ```
-
-## Optional: live Vercel ASCII API
-
-```
-https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json
-```
-
-## Profile photo
-
-Upload `assets/github-avatar.png` at https://github.com/settings/profile
