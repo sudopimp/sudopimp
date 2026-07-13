@@ -1,62 +1,8 @@
-<!-- github-profile-readme -->
-<!-- PURE ASCII glyphs (@#$%MW) via ascii-image-converter — NOT pixels/half-blocks -->
-
+<!-- github profile card -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark-pureascii.png" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-light-pureascii.png" />
-    <img
-      alt="sudopimp@github — pure ASCII portrait"
-      width="920"
-      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark-pureascii.png"
-    />
+    <source media="(prefers-color-scheme: dark)" srcset="./card-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./card-light.png" />
+    <img src="./card-dark.png" alt="sudopimp@github" width="900" />
   </picture>
-</p>
-
-<p align="center">
-  <b>Fernando Lazzarin</b>
-  · Mendoza, Argentina
-  · <code>&gt;_WAITDEAD</code>
-</p>
-
-<p align="center">
-  Humanoid robotics · AI agents · Rust · Python · Claude Code
-</p>
-
-<p align="center">
-  <a href="mailto:fernando@waitdead.com">fernando@waitdead.com</a>
-  ·
-  <a href="https://x.com/sudopimp">X</a>
-  ·
-  <a href="https://www.linkedin.com/in/fernando-lazzarin-a10013345/">LinkedIn</a>
-  ·
-  <a href="https://github.com/sudopimp/robotrola">Robotrola</a>
-</p>
-
----
-
-### Now shipping
-
-| Project | What |
-|:--------|:-----|
-| **[Robotrola](https://github.com/sudopimp/robotrola)** | Open research humanoid — 42-DOF, layered safety, ROS 2, LeRobot path |
-| **WAITDEAD** | Product & research studio |
-
-### Stack
-
-```text
-Rust  ·  Python  ·  Claude Code  ·  agents  ·  firmware  ·  ROS 2
-```
-
-### Off-hours
-
-Singing · writing lyrics · producing · videogames
-
----
-
-<p align="center">
-  <sub>
-    Pure ASCII (<code>ascii-image-converter --color --complex</code>) · cyan/grey UI ·
-    plain text: <code>ascii-art.txt</code> · robot avatar: <code>assets/github-avatar.png</code>
-  </sub>
 </p>
