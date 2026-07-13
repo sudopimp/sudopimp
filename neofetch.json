@@ -1,0 +1,124 @@
+{
+  "image": "https://raw.githubusercontent.com/sudopimp/sudopimp/main/assets/robot-ascii.png",
+  "coloredImage": true,
+  "removeBackground": false,
+  "imageScale": 1.25,
+  "imageOffsetY": "-4%",
+  "backgroundColor": "#ffffff, #0d1117",
+  "separatorColor": "#c9a66b, #8b7355",
+  "sections": [
+    {
+      "title": "sudopimp@github",
+      "titleColor": {
+        "text": "#b8860b, #e8c468",
+        "line": "#8b7355, #6b5a45"
+      },
+      "fields": [
+        {
+          "key": "Name",
+          "value": "Fernando Lazzarin",
+          "keyColor": "#c9892a, #e8c468",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "Location",
+          "value": "Mendoza, Argentina",
+          "keyColor": "#c45c26, #f0883e",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "Created",
+          "value": "2026-07-07",
+          "keyColor": "#2da44e, #3fb950",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "Uptime",
+          "value": "{{uptime}}",
+          "keyColor": "#0969da, #58a6ff",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "Company",
+          "value": ">_WAITDEAD",
+          "keyColor": "#8250df, #d2a8ff",
+          "valueColor": "#1f2328, #e6edf3"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "key": "Languages",
+          "value": "Rust, Python",
+          "keyColor": "#c9892a, #e8c468",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "CLI",
+          "value": "Claude Code",
+          "keyColor": "#c45c26, #f0883e",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "Focus",
+          "value": "Humanoid robotics, AI agents",
+          "keyColor": "#2da44e, #3fb950",
+          "valueColor": "#1f2328, #e6edf3"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "key": "Hobbies.Music",
+          "value": "Singing, Lyrics, Producing",
+          "keyColor": "#0969da, #58a6ff",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "Hobbies.Games",
+          "value": "Videogames",
+          "keyColor": "#8250df, #d2a8ff",
+          "valueColor": "#1f2328, #e6edf3"
+        }
+      ]
+    },
+    {
+      "title": "- Contact",
+      "titleColor": {
+        "text": "#b8860b, #e8c468",
+        "line": "#8b7355, #6b5a45"
+      },
+      "fields": [
+        {
+          "key": "Email",
+          "value": "fernando@waitdead.com",
+          "keyColor": "#c9892a, #e8c468",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "GitHub",
+          "value": "https://github.com/sudopimp",
+          "keyColor": "#c45c26, #f0883e",
+          "valueColor": "#0969da, #58a6ff"
+        },
+        {
+          "key": "X",
+          "value": "sudopimp",
+          "keyColor": "#2da44e, #3fb950",
+          "valueColor": "#1f2328, #e6edf3"
+        },
+        {
+          "key": "LinkedIn",
+          "value": "fernando-lazzarin",
+          "keyColor": "#0969da, #58a6ff",
+          "valueColor": "#0969da, #58a6ff"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "enabled": false
+  }
+}
