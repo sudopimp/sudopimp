@@ -1,12 +1,15 @@
 <!-- github-profile-readme -->
-<!-- LEFT: full-color ASCII from photo | RIGHT: cyan/white/grey fonts only -->
+<!-- cache-bust: 20260713c — full-color ASCII photo + cyan/grey UI -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-dark.png?v=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-light.png?v=8" />
-    <img alt="sudopimp@github — ASCII neofetch" width="900"
-      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-dark.png?v=8" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/card-dark-20260713c.png" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/card-light-20260713c.png" />
+    <img
+      alt="sudopimp@github — Fernando Lazzarin ASCII neofetch"
+      width="900"
+      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/card-dark-20260713c.png"
+    />
   </picture>
 </p>
 
@@ -52,5 +55,5 @@ Singing · writing lyrics · producing · videogames
 ---
 
 <p align="center">
-  <sub>Full-color ASCII portrait · cyan/grey UI labels · upload robot as GitHub avatar separately</sub>
+  <sub>Full-color ASCII portrait · cyan/grey UI · robot = profile avatar in Settings</sub>
 </p>
