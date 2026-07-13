@@ -157,23 +157,7 @@ def build_card(ascii_png: Path, dark: bool = True) -> Image.Image:
     base = Image.new("RGBA", art.size, (13, 17, 23, 255))
     base = Image.alpha_composite(base, art)
     card.paste(base.convert("RGB"), (ax, ay))
-
-    pal = [
-        (248, 81, 73),
-        (240, 136, 62),
-        (227, 179, 65),
-        (63, 185, 80),
-        (88, 166, 255),
-        (210, 168, 255),
-        (240, 246, 252),
-        (110, 118, 129),
-    ]
-    sw = 14
-    py = ay + ART_H + 10
-    px0 = ax + max(0, (ART_W - len(pal) * int(sw * 1.45)) // 2)
-    for i, c in enumerate(pal):
-        x = px0 + i * int(sw * 1.45)
-        draw.rounded_rectangle([x, py, x + sw, py + sw], radius=3, fill=c)
+    # palette intentionally omitted (sober card)
 
     f = font(14)
 
