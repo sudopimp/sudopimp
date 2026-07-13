@@ -1,27 +1,22 @@
 <!-- github-profile-readme -->
-<!-- True ASCII via jeantimex/neofetch-profile (characters, not pixels) -->
+<!-- ASCII neofetch: real photo → characters via jeantimex/neofetch-profile -->
+<!-- GitHub profile picture: robot avatar (upload assets/github-avatar.png in settings) -->
 
 <p align="center">
   <a href="https://github.com/jeantimex/neofetch-profile">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
-        srcset="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json&v=2"
+        srcset="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json&v=3"
       />
       <img
         alt="sudopimp@github — ASCII neofetch"
         width="900"
-        src="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json&v=2"
+        src="https://neofetch-profile.vercel.app/api?username=sudopimp&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fsudopimp%2Fsudopimp%2Fmain%2Fneofetch.json&v=3"
       />
     </picture>
   </a>
 </p>
-
-<!-- Cache-busted static ASCII (glyphs) fallback if API is down:
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/neofetch-ascii-dark.png" width="900" alt="ASCII fallback" />
-</p>
--->
 
 <p align="center">
   <b>Fernando Lazzarin</b>
@@ -68,6 +63,6 @@ Singing · writing lyrics · producing · videogames
   <sub>
     ASCII card via
     <a href="https://github.com/jeantimex/neofetch-profile">neofetch-profile</a>
-    · config in this repo
+    · photo → glyphs · robot face is the profile avatar
   </sub>
 </p>

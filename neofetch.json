@@ -1,9 +1,9 @@
 {
-  "image": "https://raw.githubusercontent.com/sudopimp/sudopimp/main/assets/robot-ascii.png",
+  "image": "https://raw.githubusercontent.com/sudopimp/sudopimp/main/assets/fernando-ascii.png",
   "coloredImage": true,
   "removeBackground": false,
-  "imageScale": 1.25,
-  "imageOffsetY": "-4%",
+  "imageScale": 1.15,
+  "imageOffsetY": "-2%",
   "backgroundColor": "#ffffff, #0d1117",
   "separatorColor": "#c9a66b, #8b7355",
   "sections": [
