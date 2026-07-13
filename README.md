@@ -1,15 +1,14 @@
 <!-- github-profile-readme -->
-<!-- Terminal portrait (half-block truecolor) + cyan/grey UI -->
-<!-- Generator: python scripts/generate_card.py -->
+<!-- PURE ASCII glyphs (@#$%MW) via ascii-image-converter — NOT pixels/half-blocks -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark.png" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-light.png" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark-pureascii.png" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-light-pureascii.png" />
     <img
-      alt="sudopimp@github — Fernando Lazzarin"
-      width="900"
-      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark.png"
+      alt="sudopimp@github — pure ASCII portrait"
+      width="920"
+      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark-pureascii.png"
     />
   </picture>
 </p>
@@ -57,7 +56,7 @@ Singing · writing lyrics · producing · videogames
 
 <p align="center">
   <sub>
-    Portrait via <code>scripts/generate_card.py</code> (terminal half-blocks) ·
-    UI cyan/grey only · robot avatar: <code>assets/github-avatar.png</code>
+    Pure ASCII (<code>ascii-image-converter --color --complex</code>) · cyan/grey UI ·
+    plain text: <code>ascii-art.txt</code> · robot avatar: <code>assets/github-avatar.png</code>
   </sub>
 </p>
