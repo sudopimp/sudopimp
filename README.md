@@ -1,14 +1,15 @@
 <!-- github-profile-readme -->
-<!-- cache-bust: 20260713c — full-color ASCII photo + cyan/grey UI -->
+<!-- Terminal portrait (half-block truecolor) + cyan/grey UI -->
+<!-- Generator: python scripts/generate_card.py -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/card-dark-20260713c.png" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/card-light-20260713c.png" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-light.png" />
     <img
-      alt="sudopimp@github — Fernando Lazzarin ASCII neofetch"
+      alt="sudopimp@github — Fernando Lazzarin"
       width="900"
-      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/card-dark-20260713c.png"
+      src="https://raw.githubusercontent.com/sudopimp/sudopimp/main/profile-card-dark.png"
     />
   </picture>
 </p>
@@ -55,5 +56,8 @@ Singing · writing lyrics · producing · videogames
 ---
 
 <p align="center">
-  <sub>Full-color ASCII portrait · cyan/grey UI · robot = profile avatar in Settings</sub>
+  <sub>
+    Portrait via <code>scripts/generate_card.py</code> (terminal half-blocks) ·
+    UI cyan/grey only · robot avatar: <code>assets/github-avatar.png</code>
+  </sub>
 </p>

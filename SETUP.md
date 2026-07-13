@@ -1,25 +1,31 @@
-# sudopimp profile
+# sudopimp profile card
 
-## Split assets
+## Generate (local)
 
-| Use | File | Notes |
-|-----|------|--------|
-| **ASCII card** (README) | `assets/me.png` | Your real photo → glyphs via neofetch-profile API |
-| **GitHub profile picture** | `assets/github-avatar.png` | Robot face — upload manually in settings |
-| Config | `neofetch.v4.json` / `neofetch.json` | Points ASCII at `me.png` |
+```bash
+cd github-profile
+pip install pillow cairosvg
+python scripts/generate_card.py --mode blocks --cols 80 --stamp myrun
+```
 
-## Set the robot as GitHub avatar (manual)
+| Mode | What |
+|------|------|
+| `blocks` (default quality) | Half-block truecolor — face is readable |
+| `ascii` | Classic `@#%` glyphs — abstract for photos |
 
-API cannot set the avatar. Do this once:
+## Assets
 
-1. Open https://github.com/settings/profile  
-2. Click the avatar → upload `assets/github-avatar.png` (robot)  
-3. Save  
+| File | Role |
+|------|------|
+| `profile-card-dark.png` / `light` | README card |
+| `assets/me.png` | Processed portrait used by the generator |
+| `assets/github-avatar.png` | **Robot** — upload as GitHub profile photo |
+| `scripts/generate_card.py` | Source of truth |
 
-## Commit identity (required)
+## Commits must be sudopimp
 
 ```bash
 git config --local user.name "sudopimp"
 git config --local user.email "301054894+sudopimp@users.noreply.github.com"
-gh api user --jq .login   # must print sudopimp
+gh api user --jq .login   # sudopimp
 ```
